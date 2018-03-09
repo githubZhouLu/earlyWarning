@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taixingzhineng.android">
+
+    <!--外部网络访问权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.InitActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.IndexActivity"/>
+        <activity android:name=".ui.LoginActivity"/>
+
+        <activity android:name=".ui.wd.WDIndexActivity" />
+        <activity android:name=".ui.wd.UserInformationActivity"/>
+
+        <activity android:name=".ui.xdgl.activity.XDGLIndexActivity" />
+        <activity android:name=".ui.xdgl.activity.RelatedWarningActivity" />
+
+        <activity android:name=".ui.yjgl.activity.YJGLIndexActivity"/>
+        <activity android:name=".ui.yjgl.activity.YJXXActivity" />
+
+        <activity android:name=".ui.zyyh.ZYYHIndexActivity" />
+        <activity android:name=".ui.zyyh.UserInforActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.PowerInformationActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.powerInformation.UserPowerActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.powerInformation.UserPowerTransformerActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.powerInformation.UserPowerEquipmentActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.powerInformation.UserPowerCapacitanceActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserEssentialInformationActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserApplyMessageActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserOwnPowerActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserSecuritySituationActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserDutyMessageActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserElectricianCertificateActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserEquipmentTroubleActivity"/>
+        <activity android:name=".ui.zyyh.userInfor.UserProtectProtectiveActivity"/>
+
+        <activity android:name=".ui.TestActivity"/>
+    </application>
+
+</manifest>

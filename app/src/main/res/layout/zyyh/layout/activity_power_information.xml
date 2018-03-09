@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/u0"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:id="@+id/user_information_power_return"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/u6"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/user_information_power_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/user_information_power_power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_information_power_power"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_power_transformer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_information_power_transformer"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_power_high_low_equipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_information_power_high_low_equipment"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_power_capacitance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_information_power_capacitance"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+    </LinearLayout>
+</LinearLayout>

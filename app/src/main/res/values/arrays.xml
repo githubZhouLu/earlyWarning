@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="early_warning_name">
+        <item>上海市浦东新区张江地区发布雷电黄色预警</item>
+    </string-array>
+    <string-array name="early_warning_level">
+        <item>Ⅰ级</item>
+        <item>Ⅱ级</item>
+        <item>Ⅲ级</item>
+        <item>Ⅳ级</item>
+    </string-array>
+    <string-array name="early_warning_content">
+        <item>上海市浦东新区张江地区发布雷电黄色预警</item>
+    </string-array>
+    <string-array name="possible_scope_of_impact">
+        <item>所有用户</item>
+        <item>市南发电厂</item>
+        <item>杨树浦发电厂</item>
+        <item>闸北发电厂</item>
+        <item>吴泾热电厂</item>
+        <item>闵行发电厂</item>
+        <item>崇明发电厂</item>
+        <item>长兴岛发电厂</item>
+    </string-array>
+    <string-array name="proposal_list_of_important_users">
+        <item>市南发电厂</item>
+        <item>杨树浦发电厂</item>
+        <item>闸北发电厂</item>
+        <item>吴泾热电厂</item>
+        <item>闵行发电厂</item>
+        <item>崇明发电厂</item>
+        <item>长兴岛发电厂</item>
+    </string-array>
+    <string-array name="basic_information_industry_classification">
+        <item>请选择</item>
+        <item>火电行业</item>
+        <item>水电行业</item>
+        <item>核电行业</item>
+        <item>风电行业</item>
+        <item>太阳能发电行业</item>
+        <item>生物质发电行业</item>
+    </string-array>
+    <string-array name="basic_information_voltage_level">
+        <item>安全电压</item>
+        <item>低压</item>
+        <item>高压</item>
+        <item>超高压</item>
+        <item>特高压</item>
+    </string-array>
+    <string-array name="basic_information_important_grade">
+        <item>一级</item>
+        <item>二级</item>
+        <item>三级</item>
+    </string-array>
+</resources>

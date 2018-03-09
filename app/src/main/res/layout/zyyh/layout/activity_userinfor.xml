@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/u0"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:id="@+id/user_infro_return"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/u6"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/user_infor_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/user_information_essential_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/essential_information"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_declaration_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/declaration_information"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_power_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/power_information"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_self_power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/self_power"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_safety_responsibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/safety_responsibility"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_duty_on_duty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/duty_on_duty"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_electrical__information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electrical_information"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_equipment_hidden_danger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/equipment_hidden_danger"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+        <TextView
+            android:id="@+id/user_information_power_protection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/power_protection"
+            android:padding="10dp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#969696" />
+    </LinearLayout>
+</LinearLayout>
